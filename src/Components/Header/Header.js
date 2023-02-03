@@ -8,6 +8,7 @@ import {
   Typography,
 } from "@mui/material";
 import React from "react";
+import PersonOutlinedIcon from '@mui/icons-material/PersonOutlined';
 
 const Header = () => {
   return (
@@ -17,20 +18,12 @@ const Header = () => {
         position="static"
       >
         <Toolbar>
-          <IconButton
-            size="large"
-            edge="start"
-            color="inherit"
-            aria-label="menu"
-            sx={{ mr: 2 }}
-          >
-            {/* <MenuIcon /> */}
-          </IconButton>
+          
           <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
             News
           </Typography>
           <Chip
-            avatar={<Avatar alt="Natacha" src="/static/images/avatar/1.jpg" />}
+            avatar={<PersonOutlinedIcon></PersonOutlinedIcon>}
             label="Avatar lorem ipsom"
             variant="outlined"
           />

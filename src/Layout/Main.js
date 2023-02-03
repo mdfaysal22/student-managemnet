@@ -7,7 +7,7 @@ const Main = () => {
     return (
         <div>
             <Header></Header>
-            <div>
+            <div className='flex flex-col md:flex-row justify-start items-start gap-5'>
                 <SideBar></SideBar>
                 <Outlet></Outlet>
             </div>
